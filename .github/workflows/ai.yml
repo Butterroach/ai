@@ -1,0 +1,11 @@
+name: AI
+
+on:
+  push:
+
+jobs:
+  ai:
+    runs-on: ubuntu-latest
+    steps:
+      - name: AI
+        run: echo AI
